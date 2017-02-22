@@ -29,6 +29,8 @@ Xtt = [Xtt;Xtt];
 s = s1+s2;
 t = t1+t2;
 d = 200;
+
+%% call low-rank common subspace function
 P = LRCS(Xtt,Xss,t,s,n,K,d);
 
 %% Calculate the recognition rate
